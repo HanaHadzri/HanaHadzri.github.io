@@ -1,7 +1,7 @@
 <!-- BEGIN: Top HTML -->
 <!DOCTYPE html>
 <!-- include aframe -->
-<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+<script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
 <!-- include ar.js -->
 <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 
@@ -101,7 +101,7 @@ if (markerFound == 1) {
 </a-assets>
 <!-- END: Unity Compiled Assets -->
 <!-- BEGIN: Add Image Target (marker) -->
-<a-marker id="marker" type="pattern" preset="custom" url="Assets/AR.js-master/aframe/fire/pattern-Untitled design.patt" emitevents="true" button>
+<a-marker id="marker" type="pattern" preset="custom" src="pattern-Untitled design.patt" url="pattern-Untitled design.patt" emitevents="true" button>
 <!-- END: Add Image Target (marker) -->
 
 <!-- BEGIN: Unity Compiled Objects -->
@@ -110,7 +110,7 @@ if (markerFound == 1) {
 <!-- END: Unity Compiled Objects -->
 
 <!-- BEGIN: Bottom HTML -->
-</a-markera>
+</a-marker>
 <a-entity camera></a-entity>
 </a-scene>
 </body>
